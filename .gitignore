@@ -1,0 +1,5 @@
+*.log
+build
+.svelte-kit
+yarn.lock
+node_modules
