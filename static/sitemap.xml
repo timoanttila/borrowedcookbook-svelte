@@ -8,16 +8,20 @@
     <loc>https://borrowedcookbook.com/breakfast</loc>
     <changefreq>monthly</changefreq>
   </url>
-    <url>
+  <url>
     <loc>https://borrowedcookbook.com/main</loc>
     <changefreq>monthly</changefreq>
   </url>
-    <url>
+  <url>
     <loc>https://borrowedcookbook.com/desserts</loc>
     <changefreq>monthly</changefreq>
   </url>
-    <url>
+  <url>
     <loc>https://borrowedcookbook.com/snacks</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://borrowedcookbook.com/drinks</loc>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>

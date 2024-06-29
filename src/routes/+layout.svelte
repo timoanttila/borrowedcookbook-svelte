@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { page } from '$app/stores'
-  import { currentPage, defaultImage, siteName } from '$lib/store'
+  import {page} from '$app/stores'
+  import {currentPage, defaultImage, siteName} from '$lib/store'
   import '$lib/app.css'
 
   let menuOpen = false
@@ -11,11 +11,12 @@
   }
 
   const menuLinks = [
-    { id: 1, name: 'Home', slug: '' },
-    { id: 1018, name: 'Breakfast', slug: 'breakfast' },
-    { id: 1020, name: 'Main Dishes', slug: 'main' },
-    { id: 1021, name: 'Desserts', slug: 'desserts' },
-    { id: 1022, name: 'Snacks', slug: 'snacks' },
+    {id: 1, name: 'Home', slug: ''},
+    {id: 1018, name: 'Breakfast', slug: 'breakfast'},
+    {id: 1020, name: 'Main Dishes', slug: 'main'},
+    {id: 1021, name: 'Desserts', slug: 'desserts'},
+    {id: 1022, name: 'Snacks', slug: 'snacks'},
+    {id: 1064, name: 'Drinks', slug: 'drinks'}
   ]
 </script>
 
@@ -72,7 +73,8 @@
   <footer class="bg-black font-content leading-normal px-6 py-2 text-center text-gray-300">
     <small>
       All credits and copyrights belong to the original publishers of the recipes.<br />
-      Created by <a class="text-gray-300" href="https://timoanttila.com/" title="Full Stack Web Developer Timo Anttila" hreflang="en">Timo Anttila</a>,
+      Created by
+      <a class="text-gray-300" href="https://timoanttila.com/" title="Full Stack Web Developer Timo Anttila" hreflang="en">Timo Anttila</a>,
       <a class="text-gray-300" href="https://tuspe.com/en" hreflang="en">Tuspe Design Oy</a>
     </small>
   </footer>

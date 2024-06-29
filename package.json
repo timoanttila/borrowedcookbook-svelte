@@ -1,6 +1,6 @@
 {
   "name": "borrowedcookbook-svelte",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "",
   "homepage": "https://borrowedcookbook.com",
   "bugs": "https://github.com/timoanttila/borrowedcookbook-svelte/issues",
@@ -21,17 +21,17 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-cloudflare": "latest",
-    "cssnano": "^7.0.2",
-    "eslint": "^9.4.0",
+    "cssnano": "^7.0.3",
+    "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-svelte": "^2.39.0",
+    "eslint-plugin-svelte": "^2.41.0",
     "postcss": "^8.4.38",
-    "prettier": "^3.3.1",
+    "prettier": "^3.3.2",
     "svelte": "latest",
     "svelte-check": "latest",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.13"
+    "typescript": "^5.5.2",
+    "vite": "^5.3.2"
   },
   "type": "module",
   "dependencies": {

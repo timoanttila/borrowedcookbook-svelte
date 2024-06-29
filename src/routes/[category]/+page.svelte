@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { currentPage, host, siteName } from '$lib/store'
-  import type { CategoryData } from '$lib/types'
+  import {currentPage, host, siteName} from '$lib/store'
+  import type {CategoryData} from '$lib/types'
   import RecipeList from '$lib/RecipeList.svelte'
 
   interface Props {
@@ -15,13 +15,13 @@
         {
           name: 'Home',
           item: host,
-          position: '1',
+          position: '1'
         },
         {
           name: data.category.title,
           item: data.canonical,
-          position: '2',
-        },
+          position: '2'
+        }
       ],
       description = `Discover, prepare, and relish a diverse collection of recipes that embody culinary excellence.`
 
@@ -31,7 +31,7 @@
       image: (data.category.image as string) ?? `${host}images/pork-ribs-borrowedcookbook.webp`,
       breadcrumb,
       metaTitle: `${data.category.title} | ${siteName}`,
-      title: data.category.title,
+      title: data.category.title
     }
   }
 </script>

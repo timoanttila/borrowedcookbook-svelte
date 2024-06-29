@@ -1,3 +1,4 @@
+import { error } from '@sveltejs/kit'
 import {api, getHeaders} from '$lib/store'
 
 export async function load({fetch}) {
@@ -6,7 +7,8 @@ export async function load({fetch}) {
     if (recipes) {
       return {recipes}
     }
-  } catch (err) {
-    console.log('Main recipes: ', err)
+    return {recipes: []}
+  } catch (err: any) {
+    error(404, 'Failed to load recipes: ' + err.message)
   }
 }

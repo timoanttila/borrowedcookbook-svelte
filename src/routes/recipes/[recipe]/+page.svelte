@@ -1,7 +1,7 @@
 <script lang="ts">
-  import { currentPage, host, siteName } from '$lib/store'
+  import {currentPage, host, siteName} from '$lib/store'
   import RecipeImg from '$lib/RecipeImg.svelte'
-  import type { RecipeData } from '$lib/types'
+  import type {RecipeData} from '$lib/types'
 
   export let data: RecipeData
 
@@ -14,18 +14,18 @@
       {
         name: 'Home',
         item: host,
-        position: '1',
+        position: '1'
       },
       {
         name: data.categories[0].title,
         item: `${host}${data.categories[0].slug}`,
-        position: '2',
+        position: '2'
       },
       {
         name: data.title,
         item: canonical,
-        position: '3',
-      },
+        position: '3'
+      }
     ]
 
     $currentPage = {
@@ -36,7 +36,7 @@
       image: Array.isArray(data.images) && data.images.length > 0 ? data.images[0].original.url : '',
       metaTitle: `How to make ${data.title} | ${data.categories[0].title} | ${siteName}`,
       title: `How to make ${data.title}`,
-      updated: data.updated,
+      updated: data.updated
     }
   }
 </script>

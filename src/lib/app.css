@@ -116,7 +116,7 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.87), rgba(15, 23, 42, 0.2) 100px, rgba(15, 23, 42, 0.6));
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 931px) {
   main {
     padding-top: 58px;
   }
@@ -148,7 +148,7 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 930px) {
   main {
     padding-top: 59px;
   }
